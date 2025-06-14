@@ -29,7 +29,7 @@ path = "/search/"
 home = ["HTML", "RSS", "SearchIndex"]
 
 [permalinks]
-post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
+post = "/:section/:contentbasename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
 author = "DSRKafuU"                # You can also set author in post front matter individually
